@@ -95,7 +95,7 @@ function EmailEditorPanel() {
           </div>
   
           {/* Email Editor */}
-          {/* <EmailEditor ref={emailEditorRef} style={{ height: 'calc(100vh - 80px)', overflow: 'hidden' }} /> */}
+          <EmailEditor ref={emailEditorRef} style={{ height: 'calc(100vh - 80px)', overflow: 'hidden' }} />
         </div>
       </div>
   );
