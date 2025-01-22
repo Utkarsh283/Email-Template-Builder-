@@ -1,3 +1,4 @@
+
 import React, { useRef , useState } from 'react'
 import EmailEditor, {  EmailEditorProps } from 'react-email-editor';
 import emailTemplate from '../assets/jsonTemplate/advertisement.json';
@@ -61,7 +62,7 @@ function EmailEditorPanel() {
               {templates.map((template) => (
                 <li
                   key={template.id}
-                  className="p-2 bg-blue-100 rounded cursor-pointer hover:bg-blue-200"
+                  className=" text-black p-2 bg-blue-100 rounded cursor-pointer hover:bg-blue-200"
                   onClick={() => 
                     {
                         loadTemplate(template.json)
@@ -94,7 +95,7 @@ function EmailEditorPanel() {
           </div>
   
           {/* Email Editor */}
-          <EmailEditor ref={emailEditorRef} style={{ height: 'calc(100vh - 80px)', overflow: 'hidden' }} />
+          {/* <EmailEditor ref={emailEditorRef} style={{ height: 'calc(100vh - 80px)', overflow: 'hidden' }} /> */}
         </div>
       </div>
   );
