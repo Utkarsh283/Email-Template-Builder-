@@ -15,7 +15,7 @@ import Layout from './Layout.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     
-    <Route path='/email-builder' element={<Layout />} >
+    <Route path='/Email-Template-Builder-/' element={<Layout />} >
         <Route path='' element={<Editor />} />
     </Route>
   )
